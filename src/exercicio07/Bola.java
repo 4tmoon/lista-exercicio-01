@@ -25,6 +25,4 @@ public class Bola {
     public String retornarDados() {
         return cor + " " + raio;
     }
-
-
 }
