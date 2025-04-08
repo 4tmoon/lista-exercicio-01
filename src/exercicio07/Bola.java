@@ -9,13 +9,12 @@ public class Bola {
         this.raio = raio;
     }
 
-    public Bola maiorBola(Bola b1, Bola b2){
+    public Bola maiorBola(Bola b1, Bola b2) {
         Bola aux = null;
 
-        if (this.raio > b1.raio && this.raio > b2.raio){
+        if (this.raio > b1.raio && this.raio > b2.raio) {
             aux = this;
-        }
-        else if(b1.raio > b2.raio) {
+        } else if (b1.raio > b2.raio) {
             aux = b1;
         } else {
             aux = b2;
@@ -23,7 +22,7 @@ public class Bola {
         return aux;
     }
 
-    public String retornarDados(){
+    public String retornarDados() {
         return cor + " " + raio;
     }
 

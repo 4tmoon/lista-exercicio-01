@@ -18,7 +18,7 @@ public class Main {
         for (int i = 0; i < qnt; i++) {
             x.nextLine();
 
-            System.out.println("Bicicleta: " + (i+1) + ": ");
+            System.out.println("Bicicleta: " + (i + 1) + ": ");
             System.out.print("Cor: ");
             cor = x.nextLine();
             System.out.print("Número de marchas: ");
